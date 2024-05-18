@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: rgb(79, 79, 65);
+  margin: 2% 5% 2% 5%;
+  padding: 1% 0;
+}
+
+.links-to-pages {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links {
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: beige;
+  color: black;
+}
+
+.select-container {
+  outline: 2px solid #000000;
+  margin: 0 10% 2% 10%;
+  padding: 0 0 0.5% 0;
+}
+
+.hotels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hotel-card {
+  outline: 1px solid #000000;
+  border-radius: 5%;
+  margin: 0 15%;
+}
+
+.read-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer; 
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5%;
+}
+
+.room-card {
+  outline: 1px solid #000000;
+  background-color: beige;
+  flex: 0 1 24%;
+  padding: 0 0 2% 0;
+}
+
+.room-card:hover {
+  transform: scale(1.1);
+}
+
+.reserve-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: 1px solid black;
+  cursor: pointer; 
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 70%;
+  height: 40px; 
+  margin: 0 0 1.5% 0;
+}
